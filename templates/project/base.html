@@ -1,0 +1,14 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'Style.css' %}">
+    <link rel="icon" href="{% static 'Favicon.png' %}">
+</head>
+<body>
+    {% block content %}{% endblock %}
+    <script src="{% static 'Scripts.js' %}"></script>
+</body>
+</html>
