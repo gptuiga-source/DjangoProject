@@ -27,11 +27,11 @@ SECRET_KEY = 'django-insecure-_v7xl!^v$c3o%n2^kvera#^^ygmw&04z4jq0k$280_a6!-9xth
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    "adaptable-benevolence-production.up.railway.app",
+    "tuiga.up.railway.app",
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://adaptable-benevolence-production.up.railway.app",
+    "https://tuiga.up.railway.app",
 ]
 
 # Application definition
